@@ -1,0 +1,278 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+/* list none ; heart an cart icon */
+li {
+  position: relative;
+  right: 3rem;
+  display: inline;
+  margin-left: 1rem;
+  list-style: none;
+}
+li > img {
+  width: 2rem;
+}
+/* hart image (icon) */
+.heart-img {
+  -webkit-user-drag: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  display: flex;
+
+  gap: 5rem;
+}
+nav > h1 {
+  margin-left: 4rem;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav > a {
+  /* this a tag not contain Home an features */
+  color: black;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+}
+/* Target the anchor tags for "Home" and "Features" */
+.nav-link-home,
+.nav-link-features {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+/* align ment nav home,features,about us .... */
+.a-tag {
+  margin-left: 40rem;
+  display: flex;
+  gap: 5rem;
+}
+.dropdown-main {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-item {
+  position: absolute;
+  z-index: 1;
+  background: green;
+  height: 5rem;
+  display: none;
+  align-items: center;
+}
+.dropdown-main:hover .dropdown-item {
+  display: block;
+}
+/* search field */
+.search-field {
+  background: white;
+  border-radius: 50px;
+}
+.search-field > input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50rem;
+  background-color: white;
+
+  background: url("../assets/search.png") no-repeat;
+  background-position: 10.5rem; /* Adjust as needed */
+  background-size: 20px 20px; /* Set the size of icon */
+  padding-right: 30px; /* Add space for the icon */
+}
+
+/* left section  */
+.content {
+  justify-content: space-between;
+  padding-left: 60px;
+}
+/* right section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take up available space */
+}
+.left-section > h1 {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+}
+.left-section > span {
+  display: flex;
+  position: relative;
+  bottom: 9rem;
+  left: 25rem;
+  color: rgb(255, 55, 0);
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+/* extra text 'wonders' */
+.left-wonder {
+  display: flex;
+  position: relative;
+  bottom: 11rem;
+}
+.left-section > p {
+  display: flex;
+  position: relative;
+  bottom: 12rem;
+  font-size: large;
+  color: #898989;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* button "explore more" */
+
+.Explore-button {
+  background: #000;
+  position: relative;
+  width: 16rem;
+  bottom: 7rem;
+  padding: 25px;
+  border-radius: 50px;
+  background: rgb(253, 100, 18);
+}
+.Explore-button > input {
+  width: 16rem;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background: url("../assets/icons8-compass-24.png") no-repeat;
+  background-position: 14rem; /* Adjust as needed */
+  background-size: 30px 30px; /* Set the size of icon */
+  padding-right: 30px; /* Add space for the icon */
+  border: none;
+}
+.image-head {
+  display: flex;
+  background: #d8bf34a4;
+  display: flex;
+  position: absolute;
+  left: 35rem;
+  bottom: 20rem;
+  width: 10rem;
+
+  border-radius: 50rem 50rem 0rem 0rem;
+}
+.off-text {
+  display: flex;
+  font-weight: bold;
+  font-size: 2.5rem;
+  position: relative;
+  left: 31rem;
+  bottom: 18rem;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transform: rotate(-9deg);
+}
+.headset-img {
+  position: relative;
+  bottom: 1.5rem;
+  left: 0.2rem;
+  width: 9rem;
+  -webkit-user-drag: none;
+}
+/* demo section */
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  width: 30rem;
+  position: relative;
+  bottom: 8rem;
+  height: 12em;
+  border-radius: 10rem 10px;
+  background: #fcd690;
+}
+.demo > span {
+  background: orangered;
+  border-radius: 5rem;
+  padding: 1rem;
+  display: flex;
+  position: relative;
+  bottom: 5rem;
+  color: white;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+.demo > img {
+  display: flex;
+  width: 12rem;
+  border-radius: 50px 4px;
+  z-index: 2;
+}
+.demo-bgbox{
+  width: 10rem;
+  background: #3b3939;
+  height: 6rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 7.5rem;
+  z-index: 1;
+  border-radius: 1px 1px 30px 30px;
+}
+/* Right section */
+.right-section {
+  flex: 1;
+  position: relative;
+  left: 45rem;
+  top: 9rem;
+  width: 75rem;
+  height: 1px;
+  /* Take up available space */
+}
+.right-section > main > img {
+  width: 60rem;
+  position: relative;
+  right: 10rem;
+  -webkit-user-drag: none;
+  animation: float 2s infinite alternate;
+}
+/* rount circles */
+
+/* circle 1  */
+.shape {
+  display: flex;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 175, 2);
+  opacity: 0.5;
+  position: relative;
+  bottom: 70rem;
+  left: 10rem;
+}
+/* circle 2 */
+.mainhad-shape {
+  background: #fa98064b;
+  border-radius: 50rem;
+  position: absolute;
+  bottom: 25rem;
+  left: 15rem;
+  width: 40rem;
+  height: 40rem;
+}
+
+/* image animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-60px);
+  }
+}
