@@ -5,6 +5,7 @@ import Headset from "../assets/headphone.png";
 import mainhead from "../assets/mainhead.png";
 import demo1 from "../assets/demo1.webp";
 import demo2 from "../assets/demo2.webp";
+
 import "./Header.css";
 import "./responsive.css"
 
@@ -49,7 +50,7 @@ function Header() {
                 <img className="heart-img" src={Heart} />
               </li>
               <li>
-                <img src={Cart} />
+                <img className="cart-image" src={Cart} />
               </li>
             </a>
           </div>
@@ -99,6 +100,9 @@ function Header() {
             <div className="shape"></div>
           </div>
         </div>
+        
+        
+       
       </main>
     </>
   );

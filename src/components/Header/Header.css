@@ -24,6 +24,9 @@ li > img {
 .heart-img {
   -webkit-user-drag: none;
 }
+.cart-image{
+  -webkit-user-drag: none;
+}
 
 nav {
   display: flex;
@@ -86,7 +89,7 @@ nav > a {
   background-color: white;
 
   background: url("../assets/search.png") no-repeat;
-  background-position: 10.5rem; /* Adjust as needed */
+  background-position: 10.7rem; /* Adjust as needed */
   background-size: 20px 20px; /* Set the size of icon */
   padding-right: 30px; /* Add space for the icon */
 }
@@ -214,6 +217,8 @@ nav > a {
   width: 12rem;
   border-radius: 50px 4px;
   z-index: 2;
+  
+  -webkit-user-drag: none;
 }
 .demo-bgbox{
   width: 10rem;
@@ -276,3 +281,8 @@ nav > a {
     transform: translateY(-60px);
   }
 }
+.test{
+  background: #000;
+  
+}
+
