@@ -1,14 +1,14 @@
-
-import './App.css'
-import Header from './components/Header/Header'
+import "./App.css";
+import Award from "./components/Awardwinpage/Award";
+import Header from "./components/Header/Header";
 
 function App() {
-
   return (
     <>
-     <Header/>
+      <Header />
+      <Award />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

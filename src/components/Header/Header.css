@@ -9,6 +9,9 @@ body {
   box-sizing: border-box;
   background-color: antiquewhite;
 }
+.h-main {
+  margin-bottom: 10rem;
+}
 /* list none ; heart an cart icon */
 li {
   position: relative;
@@ -24,7 +27,7 @@ li > img {
 .heart-img {
   -webkit-user-drag: none;
 }
-.cart-image{
+.cart-image {
   -webkit-user-drag: none;
 }
 
@@ -161,7 +164,6 @@ nav > a {
 .image-head {
   display: flex;
   background: #d8bf34a4;
-  display: flex;
   position: absolute;
   left: 35rem;
   bottom: 20rem;
@@ -217,10 +219,10 @@ nav > a {
   width: 12rem;
   border-radius: 50px 4px;
   z-index: 2;
-  
+
   -webkit-user-drag: none;
 }
-.demo-bgbox{
+.demo-bgbox {
   width: 10rem;
   background: #3b3939;
   height: 6rem;
@@ -281,9 +283,7 @@ nav > a {
     transform: translateY(-60px);
   }
 }
-.test{
+.test {
   background: #000;
   height: 100vh;
-  
 }
-

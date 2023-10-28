@@ -7,11 +7,11 @@ import demo1 from "../assets/demo1.webp";
 import demo2 from "../assets/demo2.webp";
 
 import "./Header.css";
-import "./responsive.css"
+import "./responsive.css";
 
 function Header() {
   return (
-    <>
+    <div className="h-main">
       {/* nav bar */}
       <nav>
         <h1>Epic-Sound</h1>
@@ -20,7 +20,6 @@ function Header() {
           <a className="nav-link-home" href="#">
             Home
           </a>
-          
 
           {/* drop down in features */}
           <div className="dropdown-main">
@@ -100,11 +99,8 @@ function Header() {
             <div className="shape"></div>
           </div>
         </div>
-        
-        
-       
       </main>
-    </>
+    </div>
   );
 }
 
