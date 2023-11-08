@@ -1,0 +1,155 @@
+/* page align */
+.p-main {
+  position: relative;
+  height: 100vh;
+  top: 5rem;
+}
+/* header + button container */
+.p-container {
+  position: relative;
+  padding: 1rem;
+}
+/* h1
+alignment */
+.p-container > h1 {
+  position: relative;
+  right: 35rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+/* button align */
+.p-button {
+  display: inline;
+  position: relative;
+  left: 50rem;
+  bottom: 10rem;
+}
+/* button focus */
+.p-button > button {
+  border: 3px solid red;
+  color: red;
+  height: 3rem;
+  font-size: 60px;
+  padding-bottom: 5rem;
+  margin-left: 1rem;
+  width: 10rem;
+  background: none;
+  border-radius: 5rem;
+}
+.p-button > button:hover {
+  
+}
+.p-button > button:nth-child(2) {
+  color: white;
+  background: red;
+}
+/* section 2 products */
+.p-section2 {
+  display: flex;
+  justify-content: space-around;
+}
+/* products ... */
+.product-section {
+  width: 25rem;
+  height: 20rem;
+  background: white;
+  border-radius: 2rem;
+  margin-top: 17rem;
+}
+/* center product */
+.product-secmain {
+  height: 30rem;
+  position: relative;
+  bottom: 10rem;
+  width: 35rem;
+}
+/* round shape */
+.p-shape {
+  border-radius: 50rem;
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  bottom: 10rem;
+  left: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.p-shapemid {
+  width: 30rem;
+  height: 30rem;
+  bottom: 15rem;
+}
+
+.p-shape > img {
+  padding: 2rem;
+
+
+}
+/* product shape color (bg) */
+
+.imgmid {
+  width: 155rem;
+}
+/* product section txt */
+.product-section > h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.productmain-header {
+  top: -15rem;
+  font-size: 2.5rem;
+}
+.span-input {
+  display: flex;
+  position: relative;
+  bottom: 9rem;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+}
+.span-input > span {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.span-input > input {
+  display: flex;
+  align-items: center;
+  padding-top: 0.3rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  width: 10rem;
+  padding-left: 10px;
+
+  text-align: start;
+  font-family: "Courier New", Courier, monospace;
+  background: rgb(255, 102, 0);
+  color: white;
+  border-radius: 50rem;
+  background-image: url("../assets/icon/addcart.png");
+  background-position: 7.5rem 2px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+/* for center span input's */
+.span-input-center {
+  position: relative;
+  bottom: 11rem;
+}
+.span-input-center > span {
+  font-size: 2.5rem;
+}
+/* button */
+.span-input-center > input {
+  width: 11rem;
+  background-position: 8.5rem 2px;
+  background-position-y: center;
+  font-size: 1.1rem;
+}

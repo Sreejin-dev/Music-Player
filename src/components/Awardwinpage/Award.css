@@ -1,13 +1,22 @@
+.container{
+  position:relative
+}
+.a-main{
+  position: relative;
+  bottom: 10rem;
+  padding-top: 15rem;
+}
 .aleft-section {
   flex: 1;
   float: left;
+  position: relative;
 }
 .aimage-headset {
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
   position: relative;
-  left: 5rem;
+  left: 8rem;
   bottom: 10rem;
   background: #e2b47fd0;
 }
@@ -38,28 +47,28 @@
 /* main Head */
 .aright-section > h1 {
   position: relative;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-  right: 40rem;
+  right: 30rem;
   bottom: 13rem;
   font-size: 5rem;
 }
 /* list Voice Assistant....etc */
 .lists {
-    height: 1rem;
-    margin: 0;
+  height: 1rem;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 2rem;
   position: relative;
-  right: 38rem;
+  right: 28rem;
   bottom: 14rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 /* image */
-.lists>li>img{
+.lists > li > img {
   border-radius: 50%;
   margin-right: 20px;
   width: 3.5rem;
@@ -67,9 +76,9 @@
   top: 1rem;
 }
 /* paragraph */
-.lists>li>p{
-    color: gray;
-    font-size: medium;
-    position: relative;
-    left: 5rem;
+.lists > li > p {
+  color: gray;
+  font-size: medium;
+  position: relative;
+  left: 5rem;
 }
