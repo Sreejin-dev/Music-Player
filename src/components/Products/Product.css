@@ -38,9 +38,7 @@ alignment */
   background: none;
   border-radius: 5rem;
 }
-.p-button > button:hover {
-  
-}
+
 .p-button > button:nth-child(2) {
   color: white;
   background: red;
