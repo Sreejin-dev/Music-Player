@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import "./Product.css";
 import productmid from "../assets/productmid.png";
 import yellowheadphone from "../assets/yellowheadphone.png";
 import blackheadphone from "../assets/blackheadphone.png";
 import { motion } from "framer-motion";
-function Product() {
-  const [change, setChange] = useState("");
+// slide product
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
+function Product() {
   const fadeIn = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
@@ -14,6 +17,16 @@ function Product() {
   const lefttoright = {
     left: { left: "-15rem" },
     main: { left: "0rem" },
+  };
+
+  // slide option products
+  const sliderRef = useRef(null);
+
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
@@ -34,10 +47,15 @@ function Product() {
         animate=""
         transition={{ duration: 1 }}
       >
-        <h1>
-          The Market Provides <br />
-          Hot<span style={{ color: "red" }}> Products</span>
-        </h1>
+        <div className="slidrr">
+          <Slider ref={sliderRef} {...settings} >
+          
+            <h1 className="Slider-h1">
+              The Market Provides <br />
+              Hot<span style={{ color: "red" }}> Products</span>
+            </h1>
+          </Slider>
+        </div>
         {/* buttons */}
         <div className="p-button">
           <button id="arrow-left">&#8592;</button>

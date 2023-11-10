@@ -2,28 +2,36 @@
 .p-main {
   position: relative;
   height: 100vh;
-  top: 5rem;
+  bottom: 10rem;
+  padding-left: -5rem;
 }
 /* header + button container */
 .p-container {
   position: relative;
   padding: 1rem;
+  width: 100%;
 }
 /* h1
 alignment */
-.p-container > h1 {
+
+.slidrr {
+  display: flex;
   position: relative;
-  right: 35rem;
+  width: 100%;
+}
+.Slider-h1 {
+  position: relative;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
+  left: 5rem;
 }
 /* button align */
 .p-button {
   display: inline;
   position: relative;
-  left: 50rem;
+  left: 90rem;
   bottom: 10rem;
 }
 /* button focus */
@@ -82,8 +90,6 @@ alignment */
 
 .p-shape > img {
   padding: 2rem;
-
-
 }
 /* product shape color (bg) */
 
