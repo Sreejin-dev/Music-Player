@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
+    overflow: hidden;
   }
   .nav-main {
     display: block;
@@ -12,6 +13,21 @@
     margin-left: 1rem;
     font-weight: bolder;
     font-size: 20px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .a-tag {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .search-field {
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .search-field > input {
+    padding: 0.5rem;
+    background-position: 18.7rem; /* Adjust as needed */
+    padding-right: 170px; /* Add space for the icon */
   }
 }
