@@ -1,8 +1,8 @@
 /* page align */
 .p-main {
   position: relative;
+  top: 10rem;
   height: 100vh;
-  bottom: 10rem;
   padding-left: -5rem;
 }
 /* header + button container */
@@ -13,13 +13,12 @@
 }
 /* h1
 alignment */
-
-.slidrr {
-  display: flex;
+.slider {
   position: relative;
-  width: 100%;
+  right: 40rem;
 }
-.Slider-h1 {
+
+.slider-content > h1 {
   position: relative;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -31,7 +30,7 @@ alignment */
 .p-button {
   display: inline;
   position: relative;
-  left: 90rem;
+  left: 50rem;
   bottom: 10rem;
 }
 /* button focus */
@@ -46,6 +45,10 @@ alignment */
   background: none;
   border-radius: 5rem;
 }
+.p-button > button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
 
 .p-button > button:nth-child(2) {
   color: white;
@@ -55,6 +58,7 @@ alignment */
 .p-section2 {
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 /* products ... */
 .product-section {
@@ -156,4 +160,8 @@ alignment */
   background-position: 8.5rem 2px;
   background-position-y: center;
   font-size: 1.1rem;
+}
+/* slick key hide */
+.slick-next {
+  display: none !important;
 }

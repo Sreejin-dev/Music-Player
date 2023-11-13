@@ -1,6 +1,17 @@
 @media only screen and (max-width: 600px) {
-    body{
-        display: block;
-    }
-
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  .nav-main {
+    display: block;
+    position: relative;
+  }
+  .nav-main > h1 {
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }

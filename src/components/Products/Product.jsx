@@ -4,7 +4,6 @@ import productmid from "../assets/productmid.png";
 import yellowheadphone from "../assets/yellowheadphone.png";
 import blackheadphone from "../assets/blackheadphone.png";
 import { motion } from "framer-motion";
-// slide product
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,19 +13,22 @@ function Product() {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
   };
-  const lefttoright = {
+
+  const leftToRight = {
     left: { left: "-15rem" },
     main: { left: "0rem" },
   };
 
-  // slide option products
   const sliderRef = useRef(null);
 
   const settings = {
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    prevArrow: null, // Remove the previous button
+    nextArrow: null, // Remove the next button
   };
 
   return (
@@ -38,46 +40,53 @@ function Product() {
       animate=""
       transition={{ duration: 1 }}
     >
-      {/* p-conteiner based on hwader text an buttons */}
       <motion.div
         className="p-container"
-        variants={lefttoright}
+        variants={leftToRight}
         initial={"left"}
         whileInView={"main"}
         animate=""
         transition={{ duration: 1 }}
       >
-        <div className="slidrr">
-          <Slider ref={sliderRef} {...settings} >
-          
-            <h1 className="Slider-h1">
-              The Market Provides <br />
-              Hot<span style={{ color: "red" }}> Products</span>
-            </h1>
+        <div className="slider">
+          <Slider ref={sliderRef} {...settings}>
+            <div className="slider-content">
+              <h1>
+                The Market Provides <br />
+                Hot<span style={{ color: "red" }}> Products</span>
+              </h1>
+            </div>
+            <div className="slider-content">
+              <h1>
+                This world is nothing <br />
+                in<span style={{ color: "red" }}> Companies</span>
+              </h1>
+            </div>
           </Slider>
         </div>
-        {/* buttons */}
         <div className="p-button">
-          <button id="arrow-left">&#8592;</button>
-          <button id="arrow-right">&#8594;</button>
+          <button id="arrow-left" onClick={() => sliderRef.current.slickPrev()}>
+            &#8592;
+          </button>
+          <button
+            id="arrow-right"
+            onClick={() => sliderRef.current.slickNext()} 
+          >
+            &#8594;
+          </button>
         </div>
       </motion.div>
-      {/* products info section  */}
       <div className="p-section2">
         <div className="product-section" id="product-1">
-          {/* round shape */}
           <div
             className="p-shape"
             style={{
               background: "rgb(221, 221, 98)",
             }}
           >
-            {/* image */}
             <img src={yellowheadphone} alt="" />
           </div>
-          {/* texts */}
           <h1>Unique Headphone</h1>
-          {/* price tag */}
           <div className="span-input">
             <span>$20.50</span>
             <input type="button" value="Add To Cart" />
@@ -97,7 +106,7 @@ function Product() {
               alt=""
             />
           </div>
-          <h1 className="productmain-header">Colored Headphones</h1>{" "}
+          <h1 className="productmain-header">Colored Headphones</h1>
           <div className="span-input span-input-center" id="product-3">
             <span>$36.50</span>
             <input type="button" value="Add To Cart" />
