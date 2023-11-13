@@ -26,8 +26,9 @@
     margin-left: 1rem;
   }
   .search-field > input {
-    padding: 0.5rem;
-    background-position: 18.7rem; /* Adjust as needed */
-    padding-right: 170px; /* Add space for the icon */
+    padding: .7rem;
+    background-position: 17.9rem; /* Adjust as needed */
+  background-size: 20px; /* Set the size of icon */
+  padding-right: 150px; /* Add space for the icon */
   }
 }
