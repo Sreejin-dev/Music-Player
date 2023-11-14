@@ -33,6 +33,7 @@ function Product() {
 
   return (
     <motion.div
+    id="products"
       className="p-main"
       variants={fadeIn}
       initial={"hidden"}

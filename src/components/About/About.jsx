@@ -10,6 +10,7 @@ function About() {
   };
   return (
     <motion.div
+    id="about"
       className="about-main"
       style={{
         textAlign: "center",
@@ -38,14 +39,15 @@ function About() {
         </h1>
         {/* a-tag using for adjustment also home an features button used classnames */}
         <div className="a-tag" style={{ fontSize: "1.2rem" }}>
-          <a className="nav-link-home" href="#">
+          <a className="nav-link-home" href="#home">
             Home
           </a>
-          <a className="nav-link-features" href="#">
+          <a className="nav-link-features" href="#award">
             Features
           </a>
-          <a href="#">About Us</a>
-          <a href="#award">Product</a>
+         
+          <a href="#products">Product</a>
+          <a href="#about">About Us</a>
           <div className="social">
             {" "}
             <a href="#" class="fa fa-pinterest"></a>

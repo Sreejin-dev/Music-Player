@@ -16,7 +16,7 @@ function Header() {
     main: { left: "0rem" },
   };
   return (
-    <div className="h-main">
+    <div className="h-main" id="home">
       {/* nav bar */}
       <motion.div
         className="nav-main"
@@ -27,18 +27,17 @@ function Header() {
         <h1>Epic-Sound</h1>
         {/* a-tag using for adjustment also home an features button used classnames */}
         <div className="a-tag">
-          <a className="nav-link-home" href="#">
+          <a className="nav-link-home" href="#home">
             Home
           </a>
 
           {/* drop down in features */}
-          <a className="nav-link-features" href="#">
+          <a className="nav-link-features" href="#award">
             Features
           </a>
           {/* drop down items */}
-
-          <a href="#">About Us</a>
-          <a href="#award">Product</a>
+          <a href="#products">Product</a>
+          <a href="#about">About Us</a>
         </div>
         {/* input field with search image */}
         <div className="search-field">

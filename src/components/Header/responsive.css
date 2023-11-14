@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
-    overflow: hidden;
   }
   .nav-main {
     display: block;
@@ -26,9 +25,71 @@
     margin-left: 1rem;
   }
   .search-field > input {
-    padding: .7rem;
+    padding: 0.7rem;
     background-position: 17.9rem; /* Adjust as needed */
-  background-size: 20px; /* Set the size of icon */
-  padding-right: 150px; /* Add space for the icon */
+    background-size: 20px; /* Set the size of icon */
+    padding-right: 150px; /* Add space for the icon */
+  }
+  .heart {
+    position: relative;
+    left: 20rem;
+    bottom: 12rem;
+  }
+  .heart > a > li > img {
+    width: 1.8rem;
+  }
+  .left-section {
+    position: relative;
+    bottom: 3rem;
+    right: 2rem;
+  }
+  .left-section > h1 {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 7rem;
+    position: relative;
+  }
+  .left-section > span {
+    font-size: 30px;
+    position: relative;
+    left: 10rem;
+    bottom: 7rem;
+  }
+  .left-section > p {
+    position: relative;
+    bottom: 17rem;
+    font-size: 14px;
+  }
+  .Explore-button {
+    width: 10rem;
+    height: 0.5rem;
+    position: relative;
+    bottom: 15rem;
+  }
+  .Explore-button > input {
+    font-size: 20px;
+    position: relative;
+    right: 4rem;
+    bottom: 0.4rem;
+    padding-right: 1rem;
+    background: url("../assets/icons8-compass-24.png") no-repeat;
+    background-position: 13rem; /* Adjust as needed */
+    background-size: 30px 30px; /* Set the size of icon */
+  }
+  .image-head {
+    width: 5rem;
+    position: relative;
+    left: 15rem;
+    top: -22rem;
+  }
+  .headset-img {
+    width: 5rem;
+  }
+  .off-text {
+   font-size: 16px;
+    position: relative;
+    left: 15rem;
+    bottom: 24rem;
+   
   }
 }
