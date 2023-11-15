@@ -1,0 +1,42 @@
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .a-main {
+    bottom: 5rem;
+    padding-top: 10rem;
+  }
+  .aimage-headset {
+    background: none;
+  }
+  .aright-section > h1 {
+    right: 10rem;
+    bottom: 8rem;
+    font-size: 3rem;
+  }
+
+  .lists {
+    right: 8rem;
+    bottom: 9rem;
+  }
+  .a-ring {
+    border: none;
+  }
+  .a-ring > img {
+    width: 20rem;
+    height: 20rem;
+    left: -3rem;
+  }
+  /* responsive time showing text */
+  .arestext {
+    display: block;
+    position: relative;
+    bottom: 20rem;
+    left: 9rem;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}

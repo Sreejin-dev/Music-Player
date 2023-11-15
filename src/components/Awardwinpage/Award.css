@@ -1,13 +1,13 @@
-.container{
-  position:relative
+.container {
+  position: relative;
 }
-.a-main{
+.a-main {
   position: relative;
   bottom: 10rem;
   padding-top: 15rem;
 }
 /* responsive showing text */
-.respon-text{
+.respon-text {
   display: none;
 }
 .aleft-section {
@@ -51,7 +51,7 @@
 /* main Head */
 .aright-section > h1 {
   position: relative;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   right: 30rem;
   bottom: 13rem;
@@ -85,4 +85,8 @@
   font-size: medium;
   position: relative;
   left: 5rem;
+}
+
+.arestext{
+  display: none;
 }
