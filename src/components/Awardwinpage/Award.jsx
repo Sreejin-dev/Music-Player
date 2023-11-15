@@ -2,6 +2,7 @@ import React from "react";
 import Headset from "../assets/aheadsetmain.png";
 import Battery from "../assets/icon/battery.png";
 import { motion } from "framer-motion";
+import "./responsive.css";
 import "./Award.css";
 function Award() {
   const fadeIn = {
@@ -39,7 +40,7 @@ function Award() {
           {/* headset image adjust */}
 
           <div className="aimage-headset">
-            {" "}
+           <h1 className="respon-text">Features</h1>
             {/*background round shape*/}
             <div className="a-ring">
               {/*background ring shape*/}
@@ -56,6 +57,7 @@ function Award() {
           animate=""
           transition={{ duration: 1 }}
         >
+          
           {/* Main test */}
           <h1>
             Award-Winning <br />
