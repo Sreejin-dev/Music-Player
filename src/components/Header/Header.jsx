@@ -71,16 +71,12 @@ function Header() {
               Immerse Yourself in Rich.
             </p>
 
-            <motion.div
+            <div
               className="Explore-button"
-              variants={lefttoright}
-              initial="left"
-              whileInView="main"
-              animate=""
-              transition={{ duration: 1 }}
+             
             >
               <input type="button" value="Explore More" />
-            </motion.div>
+            </div>
             {/* small image -main */}
             <motion.div
               className="image-head"
