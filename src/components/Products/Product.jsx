@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./Product.css";
+import "./presponsive.css"
 import productmid from "../assets/productmid.png";
 import yellowheadphone from "../assets/yellowheadphone.png";
 import blackheadphone from "../assets/blackheadphone.png";
@@ -93,6 +94,7 @@ function Product() {
             <input type="button" value="Add To Cart" />
           </div>
         </div>
+        {/* center produvt */}
         <div className="product-section product-secmain" id="product-2">
           <div
             className="p-shape p-shapemid"
@@ -101,7 +103,7 @@ function Product() {
             }}
           >
             <img
-              style={{ width: "20rem" }}
+            
               className="imgmid"
               src={productmid}
               alt=""

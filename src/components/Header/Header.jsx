@@ -71,10 +71,7 @@ function Header() {
               Immerse Yourself in Rich.
             </p>
 
-            <div
-              className="Explore-button"
-             
-            >
+            <div className="Explore-button">
               <input type="button" value="Explore More" />
             </div>
             {/* small image -main */}

@@ -25,7 +25,7 @@
   .lists > li > img {
     width: 3rem;
   }
-  .lists>li>p{
+  .lists > li > p {
     position: relative;
     left: 4rem;
   }

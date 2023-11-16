@@ -1,0 +1,115 @@
+/* presponsive.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  /* page align */
+  .p-main {
+    top: 5rem;
+  }
+
+  /* header + button container */
+  .p-container {
+    padding: 0.5rem;
+  }
+
+  /* h1 alignment */
+  .slider {
+    right: 0;
+  }
+
+  .slider-content > h1 {
+    font-size: 30px;
+    left: 0;
+  }
+
+  /* button align */
+  .p-button {
+    left: 0;
+    top: 1.5rem;
+  }
+  .p-button > button {
+    width: 7rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+    padding-bottom: 0px;
+  }
+
+  /* section 2 products */
+  .p-section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* products */
+  .product-section,
+  .product-secmain {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* center product */
+  .product-secmain {
+    height: 20rem;
+    width: 23rem;
+  }
+
+  .product-secmain {
+    height: auto;
+    bottom: 0;
+  }
+
+  /* round shape */
+  .p-shape,
+  .p-shapemid {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  .p-shapemid {
+    width: 23rem;
+    height: 10rem;
+    bottom: 0;
+  }
+
+  .p-shape > img {
+    padding: 1rem;
+    width: 7rem;
+  }
+
+  /* product section txt */
+  .product-section > h1,
+  .productmain-header {
+    bottom: 0;
+    top: 0;
+    font-size: 1.5rem;
+  }
+
+  /* span-input */
+  .span-input,
+  .span-input-center {
+    bottom: 0;
+    padding: 1rem 4rem;
+  }
+  .span-input > input {
+    margin-left: 2rem;
+    padding-right: 2rem;
+  }
+  .span-input-center {
+    padding-right: 1rem;
+    width: 17rem;
+  }
+  .span-input > span,
+  .span-input-center > span {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+  }
+
+  .span-input > input,
+  .span-input-center > input {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
