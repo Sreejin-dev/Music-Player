@@ -69,7 +69,7 @@
   }
 
   .p-shapemid {
-    width: 23rem;
+    width: 20rem;
     height: 10rem;
     bottom: 0;
   }
@@ -94,11 +94,11 @@
     padding: 1rem 4rem;
   }
   .span-input > input {
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding-right: 2rem;
   }
   .span-input-center {
-    padding-right: 1rem;
+    padding: 2rem;
     width: 17rem;
   }
   .span-input > span,
@@ -111,5 +111,14 @@
   .span-input-center > input {
     width: 100%;
     font-size: 1rem;
+  }
+  .product-section {
+    padding: 1rem;
+  }
+  .p-section2 {
+    margin: 2rem;
+  }
+  .product-secmain {
+    width: 20rem;
   }
 }

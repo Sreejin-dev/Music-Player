@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Product.css";
-import "./presponsive.css"
+import "./presponsive.css";
 import productmid from "../assets/productmid.png";
 import yellowheadphone from "../assets/yellowheadphone.png";
 import blackheadphone from "../assets/blackheadphone.png";
@@ -34,7 +34,7 @@ function Product() {
 
   return (
     <motion.div
-    id="products"
+      id="products"
       className="p-main"
       variants={fadeIn}
       initial={"hidden"}
@@ -72,7 +72,7 @@ function Product() {
           </button>
           <button
             id="arrow-right"
-            onClick={() => sliderRef.current.slickNext()} 
+            onClick={() => sliderRef.current.slickNext()}
           >
             &#8594;
           </button>
@@ -102,12 +102,7 @@ function Product() {
               background: "pink",
             }}
           >
-            <img
-            
-              className="imgmid"
-              src={productmid}
-              alt=""
-            />
+            <img className="imgmid" src={productmid} alt="" />
           </div>
           <h1 className="productmain-header">Colored Headphones</h1>
           <div className="span-input span-input-center" id="product-3">
