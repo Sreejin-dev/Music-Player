@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import "./abresponsive.css"
+import "./abresponsive.css";
 import { motion } from "framer-motion";
 function About() {
   const transition = { type: "spring", duration: 3 };
@@ -10,7 +10,7 @@ function About() {
   };
   return (
     <motion.div
-    id="about"
+      id="about"
       className="about-main"
       style={{
         textAlign: "center",
@@ -47,7 +47,7 @@ function About() {
           <a className="nav-link-features" href="#award">
             Features
           </a>
-         
+
           <a href="#products">Product</a>
           <a href="#about">About Us</a>
           <div className="social">
