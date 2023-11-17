@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-
+import "./abresponsive.css"
 import { motion } from "framer-motion";
 function About() {
   const transition = { type: "spring", duration: 3 };
@@ -14,10 +14,12 @@ function About() {
       className="about-main"
       style={{
         textAlign: "center",
-        height: "40vh",
+        height: "40vh", // Adjust this based on your design
         position: "relative",
         top: "10rem",
         background: "white",
+        margin: "0%", // Adjust margin for responsiveness
+        paddingBottom: "3rem",
       }}
       variants={bottomtotop}
       initial={"top"}
@@ -38,7 +40,7 @@ function About() {
           Epic-Sound
         </h1>
         {/* a-tag using for adjustment also home an features button used classnames */}
-        <div className="a-tag" style={{ fontSize: "1.2rem" }}>
+        <div className="a-tag ab-tag" style={{ fontSize: "1.2rem" }}>
           <a className="nav-link-home" href="#home">
             Home
           </a>
