@@ -1,20 +1,19 @@
 @media only screen and (max-width: 600px) {
-    .about-main{
-        position: relative;
-        top: 40rem !important;
-        height: 60vh !important;
-    }
-    .ab-tag {
-        display: flex;
-        flex-direction: column;
-    }
-    .social{
-        position: relative;
-        right: 13rem;
-    }
-    .fa {
-        width: 50px !important;
-        font-size: 20px !important;
-      }
-   
+  .about-main {
+    position: relative;
+    top: 40rem !important;
+    height: 60vh !important;
+  }
+  .ab-tag {
+    display: flex;
+    flex-direction: column;
+  }
+  .social {
+    position: relative;
+    right: 13rem;
+  }
+  .fa {
+    width: 50px !important;
+    font-size: 20px !important;
+  }
 }
