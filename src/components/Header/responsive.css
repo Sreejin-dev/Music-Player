@@ -1,8 +1,6 @@
 /* mobile device */
-@media only screen and (max-width: 600px) {
-  /* html, body{
-    overflow-x: hidden;
-  } */
+@media only screen and (max-width: 768px) {
+  
   body {
     margin: 0;
     padding: 0;
@@ -26,11 +24,11 @@
   }
   .search-field {
     margin: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .search-field > input {
     padding: 0.7rem;
-    background-position: 17.9rem; /* Adjust as needed */
+    background-position: 12.9rem; /* Adjust as needed */
     background-size: 20px; /* Set the size of icon */
     padding-right: 150px; /* Add space for the icon */
   }

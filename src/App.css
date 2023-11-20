@@ -4,12 +4,8 @@ body {
   background-color: antiquewhite;
 }
 html {
-  overflow-x: hidden;
   user-select: none;
   scroll-behavior: smooth;
-}
-@media only screen and (max-width: 600px) {
-  body {
-    display: block;
-  }
+  overflow-x: hidden;
+  overflow-y: auto;
 }
