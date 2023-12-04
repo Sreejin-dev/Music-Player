@@ -25,12 +25,14 @@
   .search-field {
     margin: 2rem;
     margin-left: 2rem;
+    width: fit-content;
+    padding-right: 0.5rem;
   }
   .search-field > input {
     padding: 0.7rem;
     background-position: 12.9rem; /* Adjust as needed */
     background-size: 20px; /* Set the size of icon */
-    padding-right: 150px; /* Add space for the icon */
+    padding-right: 65px; /* Add space for the icon */
   }
   .heart {
     position: relative;

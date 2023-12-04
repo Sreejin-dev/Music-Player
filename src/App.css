@@ -6,6 +6,12 @@ body {
 html {
   user-select: none;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden;
   overflow-y: auto;
+}
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+    margin: 0;
+  }
 }

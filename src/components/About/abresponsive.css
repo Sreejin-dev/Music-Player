@@ -1,9 +1,5 @@
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-  .about-main {
-    position: relative;
-    top: 40rem !important;
-    height: 60vh !important;
-  }
+  
   .ab-tag {
     display: flex;
     flex-direction: column;
@@ -16,4 +12,12 @@
     width: 50px !important;
     font-size: 20px !important;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .about-main{
+    top: 50rem !important;
+    height: 70vh !important;
+  }
+  
 }
