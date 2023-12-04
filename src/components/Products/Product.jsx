@@ -60,8 +60,8 @@ function Product() {
             </div>
             <div className="slider-content">
               <h1>
-                This world is nothing <br />
-                in<span style={{ color: "red" }}> Companies</span>
+                Available In <br />
+                All<span style={{ color: "red" }}> Stores</span>
               </h1>
             </div>
           </Slider>
