@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import Heart from "../assets/heart.png";
 import Cart from "../assets/cart.png";
 import Headset from "../assets/headphone.png";
@@ -8,15 +8,22 @@ import demo2 from "../assets/demo2.webp";
 import { motion } from "framer-motion";
 import "./Header.css";
 import "./responsive.css";
+import Loading from "../Loading/Loading";
 
 function Header() {
+// break
   const transition = { type: "spring", duration: 3 };
   const lefttoright = {
     left: { left: "-15rem" },
     main: { left: "0rem" },
   };
   return (
-    <div className="h-main" id="home">
+    <div
+    
+      className="main-content"
+      id="home"
+    >
+      <Loading/>
       {/* nav bar */}
       <motion.div
         className="nav-main"

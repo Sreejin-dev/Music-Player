@@ -1,5 +1,7 @@
-.h-main {
+.main-content {
   margin-bottom: 10rem;
+  /* Add your main content styling */
+  /* This could include positioning, layout, colors, etc. */
 }
 
 /* list none ; heart an cart icon */
@@ -142,11 +144,11 @@ li > img {
 .image-head {
   display: flex;
   background: #d8bf34a4;
-  position: absolute;
-  left: 35rem;
-  bottom: 20rem;
+  position: relative;
+  left: 32rem;
+  top: -18rem;
   width: 10rem;
-
+  z-index: 0;
   border-radius: 50rem 50rem 0rem 0rem;
 }
 /* 30% offer test */
@@ -156,7 +158,7 @@ li > img {
   font-size: 2.5rem;
   position: relative;
   left: 31rem;
-  bottom: 18rem;
+  bottom: 28rem;
   color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transform: rotate(-9deg);
@@ -189,7 +191,7 @@ li > img {
   padding: 2rem;
   width: 30rem;
   position: relative;
-  bottom: 8rem;
+  bottom: 19rem;
   height: 12em;
   border-radius: 10rem 10px;
   background: #fcd690;
