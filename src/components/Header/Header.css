@@ -254,7 +254,7 @@ li > img {
   border: 2px solid rgb(255, 175, 2);
   opacity: 0.5;
   position: relative;
-  bottom: 70rem;
+  bottom: 80rem;
   left: 10rem;
 }
 /* circle 2 */
@@ -262,7 +262,7 @@ li > img {
   background: #fa98064b;
   border-radius: 50rem;
   position: absolute;
-  bottom: 25rem;
+  bottom: 35rem;
   left: 15rem;
   width: 40rem;
   height: 40rem;
