@@ -1,9 +1,7 @@
-import React from "react";
 import "./About.css";
 import "./abresponsive.css";
 import { motion } from "framer-motion";
 function About() {
-  const transition = { type: "spring", duration: 3 };
   const bottomtotop = {
     top: { top: "20rem" },
     normal: { top: "10rem" },
@@ -52,16 +50,17 @@ function About() {
           <a href="#about">About Us</a>
           <div className="social">
             {" "}
-            <a href="#" class="fa fa-pinterest"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" className="fa fa-pinterest"></a>
+            <a href="#" className="fa fa-instagram"></a>
+            <a href="#" className="fa fa-facebook"></a>
+            <a href="#" className="fa fa-twitter"></a>
           </div>
         </div>
       </div>
       <span style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
-        @copyright2023epic-sound
+        @copyright2023sjn
       </span>
+      <h4>created by sreejin</h4>
     </motion.div>
   );
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import Headset from "../assets/aheadsetmain.png";
 import Battery from "../assets/icon/battery.png";
 import { motion } from "framer-motion";

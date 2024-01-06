@@ -1,4 +1,3 @@
-import React, { useState , useEffect } from "react";
 import Heart from "../assets/heart.png";
 import Cart from "../assets/cart.png";
 import Headset from "../assets/headphone.png";
@@ -11,19 +10,15 @@ import "./responsive.css";
 import Loading from "../Loading/Loading";
 
 function Header() {
-// break
+  // break
   const transition = { type: "spring", duration: 3 };
   const lefttoright = {
     left: { left: "-15rem" },
     main: { left: "0rem" },
   };
   return (
-    <div
-    
-      className="main-content"
-      id="home"
-    >
-      <Loading/>
+    <div className="main-content" id="home">
+      <Loading />
       {/* nav bar */}
       <motion.div
         className="nav-main"

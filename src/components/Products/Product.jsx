@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./Product.css";
 import "./presponsive.css";
 import productmid from "../assets/productmid.png";
